@@ -1,0 +1,10 @@
+.eslint*
+.github/
+.prettier*
+.vscode/
+__tests__/
+jest.config.js
+lib/
+node_modules/
+src/
+tsconfig.json
