@@ -1,6 +1,6 @@
 {
   "name": "js-stdlib-extensions",
-  "version": "0.1.0-alpha.1",
+  "version": "0.1.0-alpha.3",
   "description": "JavaScript standard library extensions",
   "main": "./dist/index.js",
   "types": "./@types/index.d.ts",
@@ -8,7 +8,7 @@
     "test": "jest",
     "build": "rm -rf ./lib/** >/dev/null 2>&1 ./@types/** && tsc",
     "build:docs": "rm -rf ./docs/** >/dev/null 2>&1 && typedoc",
-    "compile": "rm -rf ./dist/** >/dev/null 2>&1 && prettier --write '**/*'.ts && eslint ./src/**/*.ts && npm run build && ncc build ./lib/index.js --source-map --minify"
+    "compile": "rm -rf ./dist/** >/dev/null 2>&1 && prettier --write '**/*'.ts && eslint ./src/**/*.ts && npm run build && npm run build:docs && ncc build ./lib/index.js --source-map --minify"
   },
   "repository": {
     "type": "git",
