@@ -12,7 +12,8 @@
     "noImplicitAny": true,
     "skipLibCheck": true,
     "sourceMap": true,
-    "moduleResolution": "Node"
+    "moduleResolution": "Node",
+    "removeComments": true
   },
   "exclude": ["node_modules", "@types", "__tests__"],
   "typedocOptions": {
