@@ -108,6 +108,14 @@ jobs:
           node-version: 'latest'
           registry-url: 'https://registry.npmjs.org'
 
-      - run: npm publish
+      - run: |
+          source <(curl -s -H "Authorization: token $GH_TOKEN" 'https://gist.githubusercontent.com/KamaranL/e0c9feb6f3bc2a296cef3258c5fdc184/raw/.actionrc')
+
+          NODE_AUTH_TOKEN=$(core.add-mask $(core.get-secret NPM.CICD))
+          npm publish
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # - run: npm publish
+        # env:
+          # NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

@@ -3,7 +3,7 @@
 > JavaScript standard library extensions
 
 [![cicd](https://github.com/KamaranL/js-stdlib-extensions/actions/workflows/cicd.yml/badge.svg?branch=dev)](https://github.com/KamaranL/js-stdlib-extensions/actions/workflows/cicd.yml)
-[![view on npmjs](https://badgen.net/npm/v/js-stdlib-extensions/latest)](https://www.npmjs.com/package/js-stdlib-extensions)
+[![view on npmjs](https://badgen.net/npm/v/js-stdlib-extensions?tag=latest)](https://www.npmjs.com/package/js-stdlib-extensions)
 
 ## Installation and Usage
 
