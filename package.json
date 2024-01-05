@@ -1,6 +1,6 @@
 {
   "name": "js-stdlib-extensions",
-  "version": "0.1.0-alpha.3",
+  "version": "0.1.0-alpha.8",
   "description": "JavaScript standard library extensions",
   "main": "./dist/index.js",
   "types": "./@types/index.d.ts",

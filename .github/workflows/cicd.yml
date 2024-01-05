@@ -64,7 +64,7 @@ jobs:
         name: Update manifests
 
       - run: |
-          source $GH_PROFILE
+          source $GH_RC
 
           git commit -a --amend --no-edit --date=now --trailer "skip-checks: true"
 
@@ -74,7 +74,7 @@ jobs:
         name: Commit back to source
 
       - run: |
-          source $GH_PROFILE
+          source $GH_RC
 
           gh release create v$CI_VERSION --generate-notes --verify-tag && core.set-output CI_CD "true" && core.set-output CI_TAG "v$CI_VERSION"
         id: release
