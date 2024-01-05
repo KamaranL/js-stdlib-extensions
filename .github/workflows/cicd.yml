@@ -1,20 +1,14 @@
 name: cicd
 
-# NEEDS:
-# - secrets.SSH_ID
-# - secrets.SSH_ID_PUB
-# - secrets.SSH_ALLOWED_SIGNERS
-# - secrets.NPM_TOKEN
-
 on:
   push:
     branches-ignore: main
-    # test > update manifests
+    # ci 
   pull_request:
     branches: main
-    # test > update manifests > tag > release > npm package registry
+    # ci > cd (release)
   workflow_dispatch:
-    # test > update manifests > tag > pre-release > npm package registry
+    # ci > cd (pre-release)
 
 concurrency: ${{ github.workflow }}
 
