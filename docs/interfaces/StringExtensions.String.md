@@ -42,7 +42,7 @@ substitution.
 
 #### Defined in
 
-[string.ts:21](https://github.com/KamaranL/js-stdlib-extensions/blob/a5da41f/src/ext/string.ts#L21)
+[string.ts:21](https://github.com/KamaranL/js-stdlib-extensions/blob/61ea175/src/ext/string.ts#L21)
 
 ___
 
@@ -65,7 +65,7 @@ Returns true if the length of the string is 0.
 
 #### Defined in
 
-[string.ts:30](https://github.com/KamaranL/js-stdlib-extensions/blob/a5da41f/src/ext/string.ts#L30)
+[string.ts:30](https://github.com/KamaranL/js-stdlib-extensions/blob/61ea175/src/ext/string.ts#L30)
 
 ___
 
@@ -111,4 +111,4 @@ SINGLE true`.toObject({separator: ' ', callbackFn: ([k, v]) => [k.toLowerCase(),
 
 #### Defined in
 
-[string.ts:57](https://github.com/KamaranL/js-stdlib-extensions/blob/a5da41f/src/ext/string.ts#L57)
+[string.ts:57](https://github.com/KamaranL/js-stdlib-extensions/blob/61ea175/src/ext/string.ts#L57)

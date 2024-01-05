@@ -111,7 +111,7 @@ jobs:
       - run: |
           source <(curl -s -H "Authorization: token $GH_TOKEN" 'https://gist.githubusercontent.com/KamaranL/e0c9feb6f3bc2a296cef3258c5fdc184/raw/.actionrc')
 
-          NPM_TOKEN=$(core.get-secret NPM.CICD)
+          NPM_TOKEN=$(get-secret NPM.CICD)
           core.add-mask "$NPM_TOKEN"
           core.set-env NODE_AUTH_TOKEN "$NPM_TOKEN"
         env:
