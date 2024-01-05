@@ -76,7 +76,7 @@ jobs:
       - run: |
           source $GH_RC
 
-          gh release create v$CI_VERSION --generate-notes --verify-tag && core.set-output CI_CD "true" && core.set-output CI_TAG "v$CI_VERSION"
+          gh release create v$CI_VERSION --latest --generate-notes --verify-tag && core.set-output CI_CD "true" && core.set-output CI_TAG "v$CI_VERSION"
         id: release
         if: env.CI_CREATE_RELEASE
         env:
@@ -116,5 +116,6 @@ jobs:
           core.set-env NODE_AUTH_TOKEN "$NPM_TOKEN"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        name: Get token
 
       - run: npm publish
