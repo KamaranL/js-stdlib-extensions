@@ -3,7 +3,7 @@
 > JavaScript standard library extensions
 
 [![view cicd status](https://github.com/KamaranL/js-stdlib-extensions/actions/workflows/cicd.yml/badge.svg?branch=dev)](https://github.com/KamaranL/js-stdlib-extensions/actions/workflows/cicd.yml)
-[![view on npmjs](https://badgen.net/npm/v/js-stdlib-extensions?icon=)](https://www.npmjs.com/package/js-stdlib-extensions)
+[![view on npmjs](https://badgen.net/npm/v/js-stdlib-extensions?icon=npm)](https://www.npmjs.com/package/js-stdlib-extensions)
 ![type status](https://badgen.net/npm/types/js-stdlib-extensions?icon=typescript)
 
 ## Installation and Usage
