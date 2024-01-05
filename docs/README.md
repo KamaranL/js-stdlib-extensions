@@ -1,3 +1,5 @@
+js-stdlib-extensions / [Exports](/docs/modules.md)
+
 # js-stdlib-extensions
 
 > JavaScript standard library extensions
