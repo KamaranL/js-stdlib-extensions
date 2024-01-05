@@ -39,4 +39,4 @@ Returns true if the length of the array is 0.
 
 #### Defined in
 
-[array.ts:17](https://github.com/KamaranL/js-stdlib-extensions/blob/b634e0f/src/ext/array.ts#L17)
+[array.ts:17](https://github.com/KamaranL/js-stdlib-extensions/blob/c563718/src/ext/array.ts#L17)
