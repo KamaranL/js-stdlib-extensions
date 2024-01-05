@@ -111,7 +111,7 @@ Object.flatMap({
 
 #### Defined in
 
-[object.ts:82](https://github.com/KamaranL/js-stdlib-extensions/blob/13d3725/src/ext/object.ts#L82)
+[object.ts:82](https://github.com/KamaranL/js-stdlib-extensions/blob/eaa16c0/src/ext/object.ts#L82)
 
 ___
 
@@ -146,7 +146,7 @@ Object.isEmpty({})
 
 #### Defined in
 
-[object.ts:99](https://github.com/KamaranL/js-stdlib-extensions/blob/13d3725/src/ext/object.ts#L99)
+[object.ts:99](https://github.com/KamaranL/js-stdlib-extensions/blob/eaa16c0/src/ext/object.ts#L99)
 
 ___
 
@@ -236,4 +236,4 @@ Object.sort({
 
 #### Defined in
 
-[object.ts:168](https://github.com/KamaranL/js-stdlib-extensions/blob/13d3725/src/ext/object.ts#L168)
+[object.ts:168](https://github.com/KamaranL/js-stdlib-extensions/blob/eaa16c0/src/ext/object.ts#L168)
